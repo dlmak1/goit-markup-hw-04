@@ -101,6 +101,21 @@ img {
     color: #2e2f42;
 }
 
+.header-link.current {
+    position: relative;
+    color: #404bbf;
+}
+.header-link.current::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .nav-link .link:hover,
 .nav-link .link:focus {
     color: #404bbf;
