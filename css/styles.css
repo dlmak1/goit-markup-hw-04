@@ -473,6 +473,44 @@ img {
 .footer .logo {
     margin-bottom: 16px;
     display: inline-block;
+    
 }
 
+
+.title-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+}
+
+.social-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+    background-color: #31d0aa;
+}
+
+.social-link-list {
+    display: flex;
+    gap: 16px;
+}
+
+.container .footer-container {
+    margin-right: 120px;
+}
 /*#endregion*/
